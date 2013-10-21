@@ -13,5 +13,5 @@
 
 
 @property (nonatomic, assign) id<EBMenuSelectedDelegate> delegate;
-@property (nonatomic,retain) NSArray *menu;
+@property (nonatomic,retain) NSArray *mainMenu;
 @end

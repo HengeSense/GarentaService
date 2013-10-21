@@ -39,6 +39,7 @@
     [[UINavigationBar appearance] setTintColor:[ApplicationProperties getOrange]];
     
     //menu icindeki yazılar
+    _mainMenu = [NSArray arrayWithObjects:@"Profilim", @"Müşteriye Teslim",@"3D TEST", @"Ofisler Arası Sevk",@"Servise Teslim",@"2.El Teslim",@"Çıkış Yap" ,nil ];
     
 }
 
@@ -61,7 +62,7 @@
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 3;
+    return _mainMenu.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -73,17 +74,8 @@
     }
     
     // Configure the cell...
-    switch (indexPath.row) {
-        case 0:
-            [cell.textLabel setText:@"Profilim"];
-            break;
-        case 1:
-            [cell.textLabel setText:@"Satışlarım"];
-            break;
-        default:
-            [cell.textLabel setText:@"Hata"];
-            break;
-    }
+    
+    [[cell textLabel] setText:[_mainMenu objectAtIndex:indexPath.row]];
     return cell;
 }
 

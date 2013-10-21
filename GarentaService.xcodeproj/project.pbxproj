@@ -294,6 +294,8 @@
 		B5C8A626180790C5001C82FD /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C8A624180790C5001C82FD /* LoginVC.m */; };
 		B5C8A627180790C5001C82FD /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C8A625180790C5001C82FD /* LoginVC.xib */; };
 		B5C8A62A180790E5001C82FD /* ApplicationProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C8A629180790E5001C82FD /* ApplicationProperties.m */; };
+		B5D37B06181521A700DE516C /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D37B05181521A700DE516C /* Car.m */; };
+		B5D37B091815222D00DE516C /* Damage.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D37B081815222D00DE516C /* Damage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -878,6 +880,10 @@
 		B5C8A625180790C5001C82FD /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		B5C8A628180790E5001C82FD /* ApplicationProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationProperties.h; sourceTree = "<group>"; };
 		B5C8A629180790E5001C82FD /* ApplicationProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationProperties.m; sourceTree = "<group>"; };
+		B5D37B04181521A700DE516C /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		B5D37B05181521A700DE516C /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		B5D37B071815222D00DE516C /* Damage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Damage.h; sourceTree = "<group>"; };
+		B5D37B081815222D00DE516C /* Damage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Damage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -948,6 +954,7 @@
 		B5A5171817FC5EC300E024C2 /* GarentaService */ = {
 			isa = PBXGroup;
 			children = (
+				B5D37B031815218B00DE516C /* Objects */,
 				B5A51A7C17FC5F7100E024C2 /* SMP */,
 				B5A51A7B17FC5F6600E024C2 /* VCs */,
 				B5A51A6917FC5ECA00E024C2 /* GarentaServiceAppDelegate.h */,
@@ -1928,6 +1935,17 @@
 			name = Base;
 			sourceTree = "<group>";
 		};
+		B5D37B031815218B00DE516C /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				B5D37B04181521A700DE516C /* Car.h */,
+				B5D37B05181521A700DE516C /* Car.m */,
+				B5D37B071815222D00DE516C /* Damage.h */,
+				B5D37B081815222D00DE516C /* Damage.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2110,6 +2128,7 @@
 				B5A518F717FC5EC600E024C2 /* PVRTglesExt.cpp in Sources */,
 				B5A519DC17FC5EC800E024C2 /* CC3Resource.m in Sources */,
 				B5A51A6B17FC5ECA00E024C2 /* GarentaServiceAppDelegate.m in Sources */,
+				B5D37B091815222D00DE516C /* Damage.m in Sources */,
 				B5A5184317FC5EC500E024C2 /* CCProfiling.m in Sources */,
 				B5A519FF17FC5EC900E024C2 /* CC3ShaderProgramContext.m in Sources */,
 				B5A519BA17FC5EC800E024C2 /* CC3MeshParticles.m in Sources */,
@@ -2128,6 +2147,7 @@
 				B5A5178D17FC5EC400E024C2 /* CCLabelAtlas.m in Sources */,
 				B5A517A917FC5EC400E024C2 /* CCParallaxNode.m in Sources */,
 				B5A5174117FC5EC300E024C2 /* CCActionGrid.m in Sources */,
+				B5D37B06181521A700DE516C /* Car.m in Sources */,
 				B5A5178A17FC5EC400E024C2 /* CCGrid.m in Sources */,
 				B5A5196517FC5EC700E024C2 /* CC3ParametricMeshes.m in Sources */,
 				B5A518DA17FC5EC600E024C2 /* CC3PODNode.m in Sources */,
