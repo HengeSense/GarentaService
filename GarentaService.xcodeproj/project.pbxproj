@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B55C0D15180DE49A000A4D8E /* DamageManagementVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55C0D13180DE49A000A4D8E /* DamageManagementVCViewController.m */; };
+		B55C0D16180DE49A000A4D8E /* DamageManagementVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B55C0D14180DE49A000A4D8E /* DamageManagementVCViewController.xib */; };
 		B5A5170517FC5EC300E024C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A5170417FC5EC300E024C2 /* QuartzCore.framework */; };
 		B5A5170717FC5EC300E024C2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A5170617FC5EC300E024C2 /* OpenGLES.framework */; };
 		B5A5170917FC5EC300E024C2 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A5170817FC5EC300E024C2 /* OpenAL.framework */; };
@@ -282,9 +284,22 @@
 		B5A51A6E17FC5ECA00E024C2 /* GarentaServiceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A51A6D17FC5ECA00E024C2 /* GarentaServiceLayer.m */; };
 		B5A51A7117FC5ECA00E024C2 /* GarentaServiceScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A51A7017FC5ECA00E024C2 /* GarentaServiceScene.m */; };
 		B5A51A7317FC5ECA00E024C2 /* hello-world.pod in Resources */ = {isa = PBXBuildFile; fileRef = B5A51A7217FC5ECA00E024C2 /* hello-world.pod */; };
+		B5C8A61518078F01001C82FD /* MenuSelectedDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C8A60E18078F01001C82FD /* MenuSelectedDelegate.m */; };
+		B5C8A61618078F01001C82FD /* MasterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C8A61018078F01001C82FD /* MasterVC.m */; };
+		B5C8A61718078F01001C82FD /* MasterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C8A61118078F01001C82FD /* MasterVC.xib */; };
+		B5C8A61818078F01001C82FD /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C8A61318078F01001C82FD /* DetailVC.m */; };
+		B5C8A61918078F01001C82FD /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C8A61418078F01001C82FD /* DetailVC.xib */; };
+		B5C8A61F18079065001C82FD /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C8A61E18079065001C82FD /* BaseVC.m */; };
+		B5C8A62218079085001C82FD /* BaseTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C8A62118079085001C82FD /* BaseTableVC.m */; };
+		B5C8A626180790C5001C82FD /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C8A624180790C5001C82FD /* LoginVC.m */; };
+		B5C8A627180790C5001C82FD /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C8A625180790C5001C82FD /* LoginVC.xib */; };
+		B5C8A62A180790E5001C82FD /* ApplicationProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C8A629180790E5001C82FD /* ApplicationProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B55C0D12180DE49A000A4D8E /* DamageManagementVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DamageManagementVCViewController.h; sourceTree = "<group>"; };
+		B55C0D13180DE49A000A4D8E /* DamageManagementVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DamageManagementVCViewController.m; sourceTree = "<group>"; };
+		B55C0D14180DE49A000A4D8E /* DamageManagementVCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DamageManagementVCViewController.xib; sourceTree = "<group>"; };
 		B5A5170117FC5EC300E024C2 /* GarentaService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GarentaService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A5170417FC5EC300E024C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B5A5170617FC5EC300E024C2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -846,6 +861,23 @@
 		B5A51A6F17FC5ECA00E024C2 /* GarentaServiceScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GarentaServiceScene.h; path = Classes/GarentaServiceScene.h; sourceTree = "<group>"; };
 		B5A51A7017FC5ECA00E024C2 /* GarentaServiceScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GarentaServiceScene.m; path = Classes/GarentaServiceScene.m; sourceTree = "<group>"; };
 		B5A51A7217FC5ECA00E024C2 /* hello-world.pod */ = {isa = PBXFileReference; lastKnownFileType = file; name = "hello-world.pod"; path = "Resources/hello-world.pod"; sourceTree = "<group>"; };
+		B5C8A60D18078F01001C82FD /* MenuSelectedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuSelectedDelegate.h; sourceTree = "<group>"; };
+		B5C8A60E18078F01001C82FD /* MenuSelectedDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuSelectedDelegate.m; sourceTree = "<group>"; };
+		B5C8A60F18078F01001C82FD /* MasterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterVC.h; sourceTree = "<group>"; };
+		B5C8A61018078F01001C82FD /* MasterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterVC.m; sourceTree = "<group>"; };
+		B5C8A61118078F01001C82FD /* MasterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterVC.xib; sourceTree = "<group>"; };
+		B5C8A61218078F01001C82FD /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		B5C8A61318078F01001C82FD /* DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
+		B5C8A61418078F01001C82FD /* DetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailVC.xib; sourceTree = "<group>"; };
+		B5C8A61D18079065001C82FD /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		B5C8A61E18079065001C82FD /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		B5C8A62018079085001C82FD /* BaseTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableVC.h; sourceTree = "<group>"; };
+		B5C8A62118079085001C82FD /* BaseTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableVC.m; sourceTree = "<group>"; };
+		B5C8A623180790C5001C82FD /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		B5C8A624180790C5001C82FD /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		B5C8A625180790C5001C82FD /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		B5C8A628180790E5001C82FD /* ApplicationProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationProperties.h; sourceTree = "<group>"; };
+		B5C8A629180790E5001C82FD /* ApplicationProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationProperties.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -869,6 +901,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B55C0D11180DE46E000A4D8E /* CustomerRent */ = {
+			isa = PBXGroup;
+			children = (
+				B55C0D12180DE49A000A4D8E /* DamageManagementVCViewController.h */,
+				B55C0D13180DE49A000A4D8E /* DamageManagementVCViewController.m */,
+				B55C0D14180DE49A000A4D8E /* DamageManagementVCViewController.xib */,
+			);
+			name = CustomerRent;
+			sourceTree = "<group>";
+		};
 		B5A516F817FC5EC300E024C2 = {
 			isa = PBXGroup;
 			children = (
@@ -906,11 +948,13 @@
 		B5A5171817FC5EC300E024C2 /* GarentaService */ = {
 			isa = PBXGroup;
 			children = (
-				B5A51A6417FC5ECA00E024C2 /* README! */,
+				B5A51A7C17FC5F7100E024C2 /* SMP */,
+				B5A51A7B17FC5F6600E024C2 /* VCs */,
+				B5A51A6917FC5ECA00E024C2 /* GarentaServiceAppDelegate.h */,
+				B5A51A6A17FC5ECA00E024C2 /* GarentaServiceAppDelegate.m */,
+				B5A51A7A17FC5F4A00E024C2 /* 3dClasses */,
+				B5A51A7917FC5F1500E024C2 /* Util */,
 				B5A5171917FC5EC300E024C2 /* Resources */,
-				B5A5173117FC5EC300E024C2 /* libs */,
-				B5A518A517FC5EC500E024C2 /* cocos3d */,
-				B5A51A6817FC5ECA00E024C2 /* Classes */,
 				B5A51A6517FC5ECA00E024C2 /* Supporting Files */,
 			);
 			path = GarentaService;
@@ -1802,14 +1846,86 @@
 		B5A51A6817FC5ECA00E024C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B5A51A6917FC5ECA00E024C2 /* GarentaServiceAppDelegate.h */,
-				B5A51A6A17FC5ECA00E024C2 /* GarentaServiceAppDelegate.m */,
 				B5A51A6C17FC5ECA00E024C2 /* GarentaServiceLayer.h */,
 				B5A51A6D17FC5ECA00E024C2 /* GarentaServiceLayer.m */,
 				B5A51A6F17FC5ECA00E024C2 /* GarentaServiceScene.h */,
 				B5A51A7017FC5ECA00E024C2 /* GarentaServiceScene.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		B5A51A7917FC5F1500E024C2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B5C8A628180790E5001C82FD /* ApplicationProperties.h */,
+				B5C8A629180790E5001C82FD /* ApplicationProperties.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		B5A51A7A17FC5F4A00E024C2 /* 3dClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B5A51A6417FC5ECA00E024C2 /* README! */,
+				B5A51A6817FC5ECA00E024C2 /* Classes */,
+				B5A5173117FC5EC300E024C2 /* libs */,
+				B5A518A517FC5EC500E024C2 /* cocos3d */,
+			);
+			name = 3dClasses;
+			sourceTree = "<group>";
+		};
+		B5A51A7B17FC5F6600E024C2 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				B55C0D11180DE46E000A4D8E /* CustomerRent */,
+				B5C8A61C18079033001C82FD /* Base */,
+				B5C8A61B1807901C001C82FD /* Login */,
+				B5C8A61A18078F07001C82FD /* MasterDetail */,
+			);
+			name = VCs;
+			sourceTree = "<group>";
+		};
+		B5A51A7C17FC5F7100E024C2 /* SMP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SMP;
+			sourceTree = "<group>";
+		};
+		B5C8A61A18078F07001C82FD /* MasterDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B5C8A60D18078F01001C82FD /* MenuSelectedDelegate.h */,
+				B5C8A60E18078F01001C82FD /* MenuSelectedDelegate.m */,
+				B5C8A60F18078F01001C82FD /* MasterVC.h */,
+				B5C8A61018078F01001C82FD /* MasterVC.m */,
+				B5C8A61118078F01001C82FD /* MasterVC.xib */,
+				B5C8A61218078F01001C82FD /* DetailVC.h */,
+				B5C8A61318078F01001C82FD /* DetailVC.m */,
+				B5C8A61418078F01001C82FD /* DetailVC.xib */,
+			);
+			name = MasterDetail;
+			sourceTree = "<group>";
+		};
+		B5C8A61B1807901C001C82FD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B5C8A623180790C5001C82FD /* LoginVC.h */,
+				B5C8A624180790C5001C82FD /* LoginVC.m */,
+				B5C8A625180790C5001C82FD /* LoginVC.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		B5C8A61C18079033001C82FD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B5C8A61D18079065001C82FD /* BaseVC.h */,
+				B5C8A61E18079065001C82FD /* BaseVC.m */,
+				B5C8A62018079085001C82FD /* BaseTableVC.h */,
+				B5C8A62118079085001C82FD /* BaseTableVC.m */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1868,8 +1984,10 @@
 				B5A51A4117FC5EC900E024C2 /* CC3ClipSpaceNoTexture.fsh in Resources */,
 				B5A5172B17FC5EC300E024C2 /* Icon.png in Resources */,
 				B5A51A5717FC5EC900E024C2 /* CC3PureColor.fsh in Resources */,
+				B5C8A61718078F01001C82FD /* MasterVC.xib in Resources */,
 				B5A51A7317FC5ECA00E024C2 /* hello-world.pod in Resources */,
 				B5A51A5117FC5EC900E024C2 /* CC3PointSprites.fsh in Resources */,
+				B5C8A61918078F01001C82FD /* DetailVC.xib in Resources */,
 				B5A5188917FC5EC500E024C2 /* ChangeLog in Resources */,
 				B5A51A5317FC5EC900E024C2 /* CC3PointSprites.vsh in Resources */,
 				B5A5171D17FC5EC300E024C2 /* Default@2x.png in Resources */,
@@ -1877,6 +1995,7 @@
 				B5A5172717FC5EC300E024C2 /* Icon-Small.png in Resources */,
 				B5A51A4317FC5EC900E024C2 /* CC3ClipSpaceSingleTexture.fsh in Resources */,
 				B5A5172317FC5EC300E024C2 /* Icon-72.png in Resources */,
+				B55C0D16180DE49A000A4D8E /* DamageManagementVCViewController.xib in Resources */,
 				B5A51A3D17FC5EC900E024C2 /* CC3BumpMapTangentSpace.fsh in Resources */,
 				B5A5171B17FC5EC300E024C2 /* Default.png in Resources */,
 				B5A51A5D17FC5EC900E024C2 /* CC3SingleTextureAlphaTest.fsh in Resources */,
@@ -1897,6 +2016,7 @@
 				B5A5171F17FC5EC300E024C2 /* Default-568h@2x.png in Resources */,
 				B5A5172D17FC5EC300E024C2 /* Icon@2x.png in Resources */,
 				B5A51A5917FC5EC900E024C2 /* CC3PureColor.vsh in Resources */,
+				B5C8A627180790C5001C82FD /* LoginVC.xib in Resources */,
 				B5A51A3B17FC5EC900E024C2 /* CC3BumpMapObjectSpaceAlphaTest.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1911,6 +2031,7 @@
 				B5A51A0217FC5EC900E024C2 /* CC3ShaderProgramMatcher.m in Sources */,
 				B5A517F517FC5EC400E024C2 /* CCTexturePVR.m in Sources */,
 				B5A519EC17FC5EC800E024C2 /* CC3NodeSequencer.m in Sources */,
+				B5C8A61F18079065001C82FD /* BaseVC.m in Sources */,
 				B5A51A7117FC5ECA00E024C2 /* GarentaServiceScene.m in Sources */,
 				B5A5184517FC5EC500E024C2 /* ccUtils.c in Sources */,
 				B5A5179617FC5EC400E024C2 /* CCLayer.m in Sources */,
@@ -1943,6 +2064,7 @@
 				B5A5198417FC5EC800E024C2 /* CC3NodeVisitor.m in Sources */,
 				B5A51A3417FC5EC900E024C2 /* CC3World.m in Sources */,
 				B5A51A1017FC5EC900E024C2 /* CC3CC2Extensions.m in Sources */,
+				B5C8A61518078F01001C82FD /* MenuSelectedDelegate.m in Sources */,
 				B5A5183617FC5EC500E024C2 /* base64.c in Sources */,
 				B5A5175917FC5EC300E024C2 /* CCActionTween.m in Sources */,
 				B5A518C817FC5EC500E024C2 /* CC3PFXResource.mm in Sources */,
@@ -1952,6 +2074,7 @@
 				B5A5183D17FC5EC500E024C2 /* ccCArray.m in Sources */,
 				B5A5186717FC5EC500E024C2 /* CDXMacOSXSupport.m in Sources */,
 				B5A5185B17FC5EC500E024C2 /* ZipUtils.m in Sources */,
+				B5C8A61618078F01001C82FD /* MasterVC.m in Sources */,
 				B5A5194817FC5EC700E024C2 /* CC3TextureUnit.m in Sources */,
 				B5A5174D17FC5EC300E024C2 /* CCActionManager.m in Sources */,
 				B5A517B517FC5EC400E024C2 /* CCParticleSystemQuad.m in Sources */,
@@ -1994,6 +2117,7 @@
 				B5A51A0D17FC5EC900E024C2 /* CC3Cache.m in Sources */,
 				B5A517DA17FC5EC400E024C2 /* CCShaderCache.m in Sources */,
 				B5A5199417FC5EC800E024C2 /* CC3OpenGLFoundation.m in Sources */,
+				B55C0D15180DE49A000A4D8E /* DamageManagementVCViewController.m in Sources */,
 				B5A517E017FC5EC400E024C2 /* CCSprite.m in Sources */,
 				B5A5178717FC5EC400E024C2 /* CCGrabber.m in Sources */,
 				B5A51A1417FC5EC900E024C2 /* CC3Foundation.m in Sources */,
@@ -2007,9 +2131,11 @@
 				B5A5178A17FC5EC400E024C2 /* CCGrid.m in Sources */,
 				B5A5196517FC5EC700E024C2 /* CC3ParametricMeshes.m in Sources */,
 				B5A518DA17FC5EC600E024C2 /* CC3PODNode.m in Sources */,
+				B5C8A61818078F01001C82FD /* DetailVC.m in Sources */,
 				B5A5189917FC5EC500E024C2 /* quaternion.c in Sources */,
 				B5A517E617FC5EC400E024C2 /* CCSpriteFrame.m in Sources */,
 				B5A5175317FC5EC300E024C2 /* CCActionProgressTimer.m in Sources */,
+				B5C8A626180790C5001C82FD /* LoginVC.m in Sources */,
 				B5A5173517FC5EC300E024C2 /* CCAction.m in Sources */,
 				B5A5192917FC5EC600E024C2 /* PVRTStringHash.cpp in Sources */,
 				B5A5186D17FC5EC500E024C2 /* CocosDenshion.m in Sources */,
@@ -2034,9 +2160,11 @@
 				B5A5177217FC5EC300E024C2 /* CCDirector.m in Sources */,
 				B5A519D217FC5EC800E024C2 /* CC3OSXExtensions.m in Sources */,
 				B5A5176217FC5EC300E024C2 /* CCAtlasNode.m in Sources */,
+				B5C8A62A180790E5001C82FD /* ApplicationProperties.m in Sources */,
 				B5A5195817FC5EC700E024C2 /* CC3Matrix4x3.m in Sources */,
 				B5A5182617FC5EC400E024C2 /* CCTouchHandler.m in Sources */,
 				B5A519BD17FC5EC800E024C2 /* CC3Particles.m in Sources */,
+				B5C8A62218079085001C82FD /* BaseTableVC.m in Sources */,
 				B5A517A017FC5EC400E024C2 /* CCMotionStreak.m in Sources */,
 				B5A518BA17FC5EC500E024C2 /* CC3ParticleSamples.m in Sources */,
 				B5A518BD17FC5EC500E024C2 /* CC3PointParticleSamples.m in Sources */,
@@ -2258,6 +2386,7 @@
 				B5A51A7817FC5ECA00E024C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

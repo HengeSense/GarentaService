@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "CC3UIViewController.h"
+#import "LoginVC.h"
+@interface GarentaServiceAppDelegate : UIResponder <UIApplicationDelegate> {
 
-@interface GarentaServiceAppDelegate : NSObject <UIApplicationDelegate> {
-	UIWindow* _window;
 	CC3DeviceCameraOverlayUIViewController* _viewController;
 }
+@property (strong, nonatomic) UIWindow *window;
 @end
